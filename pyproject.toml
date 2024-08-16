@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "primeiraapi"
+version = "0.1.0"
+description = ""
+authors = ["PauloHBSF <paulohbsfilho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.1"
+faker = "^27.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
